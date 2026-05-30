@@ -1,0 +1,23 @@
+{
+  "title": "License",
+  "types": {
+    "free license": {
+      "label": "Free license",
+      "description": "Personal use with attribution.",
+      "free": true,
+      "order": 1
+    },
+    "single license": {
+      "label": "Single license",
+      "description": "One production deployment.",
+      "free": false,
+      "order": 2
+    },
+    "team licenses": {
+      "label": "Team licenses",
+      "description": "Unlimited seats within your organization.",
+      "free": false,
+      "order": 3
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #b09cfb;
+  --color-secondary: #f5f2f0;
+  --color-accent: #4ecb71;
+  --color-ink: #151617;
+  --color-muted: #303236;
+  --color-surface: #ffffff;
+  --font-sans: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+body {
+  @apply bg-secondary text-ink antialiased;
+}
+
+.shadow-brutal {
+  box-shadow: 4px 4px 0 0 #151617;
+}
+
+.shadow-brutal-sm {
+  box-shadow: 2px 2px 0 0 #151617;
+}
+
+.shadow-brutal-lg {
+  box-shadow: 6px 6px 0 0 #151617;
+}
+
+.prose-aeria h2 {
+  @apply mt-8 mb-4 text-2xl font-normal;
+}
+
+.prose-aeria p {
+  @apply mb-4 leading-6;
+}
+
+.prose-aeria ul {
+  @apply mb-4 list-disc pl-6;
+}

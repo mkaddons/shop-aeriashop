@@ -1,0 +1,13 @@
+{
+  "config": {
+    "title": "Aeria Shop",
+    "description": "Sell software globally — premium digital products for builders.",
+    "theme": "default",
+    "copyright": "© 2026 Aeria Shop"
+  },
+  "socials": {
+    "github": "https://github.com/mkdevkit",
+    "x": "https://x.com/mkdevkit"
+  },
+  "email": "hello@aeriashop.com"
+}
