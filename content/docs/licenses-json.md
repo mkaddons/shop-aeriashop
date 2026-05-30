@@ -21,7 +21,7 @@ Section heading above license purchase buttons (default: `License`).
 
 ### `types`
 
-Object map. **Keys must match** the keys under each product’s `license` front matter in `src/content/goods/` (e.g. `single license`, `team licenses`).
+Object map. **Keys must match** the keys under each product’s `license` front matter in `content/goods/` (e.g. `single license`, `team licenses`).
 
 Each type:
 

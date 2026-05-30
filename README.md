@@ -6,8 +6,8 @@ Digital product storefront built with **Next.js** static export, styled from `de
 
 ## Structure
 
-- `src/content/goods/` — Product markdown and images
-- `src/content/docs/` — Documentation markdown (`index.md` = `/docs/` home)
+- `content/goods/` — Product markdown and images (assets sync to `public/goods/` on dev/build)
+- `content/docs/` — Documentation markdown (`index.md` = `/docs/` home)
 - `public/` — Static assets, `shop.json`, and `licenses.json`
 
 ## Development

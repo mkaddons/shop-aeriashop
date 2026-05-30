@@ -29,8 +29,8 @@ export type Product = {
   body: string;
 };
 
-const GOODS_DIR = path.join(process.cwd(), "src", "content", "goods");
-const GOODS_PUBLIC_PREFIX = "/content/goods";
+const GOODS_DIR = path.join(process.cwd(), "content", "goods");
+const GOODS_PUBLIC_PREFIX = "/goods";
 
 function parseTools(value: unknown): string[] {
   if (Array.isArray(value)) return value.map(String);

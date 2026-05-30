@@ -9,7 +9,7 @@ export type DocPage = {
   order: number;
 };
 
-const DOCS_DIR = path.join(process.cwd(), "src", "content", "docs");
+const DOCS_DIR = path.join(process.cwd(), "content", "docs");
 const INDEX_SLUG = "index";
 
 function readDocFile(filePath: string, slug: string): DocPage | null {

@@ -14,7 +14,7 @@ export default function HomePage() {
           <h2 className="text-ink text-3xl font-normal sm:text-4xl">Featured products</h2>
         </div>
         {products.length === 0 ? (
-          <p className="text-muted">No products yet. Add markdown files under src/content/goods/.</p>
+          <p className="text-muted">No products yet. Add markdown files under content/goods/.</p>
         ) : (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {products.map((product) => (

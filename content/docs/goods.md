@@ -3,7 +3,7 @@ title: Product metadata (goods)
 order: 11
 ---
 
-Products are Markdown files under **`src/content/goods/`**. Front matter (YAML between `---` lines) holds metadata; the body below is shown on the product detail page under **Details**.
+Products are Markdown files under **`content/goods/`** at the theme root. Front matter (YAML between `---` lines) holds metadata; the body below is shown on the product detail page under **Details**.
 
 Format reference: `desc/goods.md` in the siteshopdev repo.
 
@@ -12,17 +12,17 @@ Format reference: `desc/goods.md` in the siteshopdev repo.
 **Single file**
 
 ```
-src/content/goods/my-product.md
+content/goods/my-product.md
 ```
 
 **Folder (recommended for images)**
 
 ```
-src/content/goods/my-product/index.md
-src/content/goods/my-product/cover.svg
+content/goods/my-product/index.md
+content/goods/my-product/cover.svg
 ```
 
-Non-`.md` assets in `goods/` are copied to `public/content/goods/` on build for static URLs.
+Non-`.md` assets are synced to `public/goods/` on `npm run dev` / `npm run build` (not `public/content/`). URLs use `/goods/{slug}/…`.
 
 ## Front matter fields
 
@@ -30,7 +30,7 @@ Non-`.md` assets in `goods/` are copied to `public/content/goods/` on build for 
 | --- | --- | --- |
 | `name` | yes | Product name |
 | `desc` | yes | Short summary (listing + detail sidebar) |
-| `preview` | no | Preview image; filename relative to product folder, or absolute `/content/goods/...` URL |
+| `preview` | no | Preview image; filename relative to product folder, or absolute `/goods/...` URL |
 | `tools` | no | Tech stack tags; string (comma-separated) or array |
 | `images` | no | Detail carousel; string (comma-separated) or array |
 | `featured` | no | `true` for homepage featured section (`fetured` typo also accepted) |
@@ -87,5 +87,5 @@ Long-form product description in Markdown…
 
 ## Image paths
 
-- Relative filenames (e.g. `cover.svg`) resolve to `/content/goods/{slug}/cover.svg` after sync.
+- Relative filenames (e.g. `cover.svg`) resolve to `/goods/{slug}/cover.svg` after sync.
 - Paths starting with `http` or `/` are used as-is.

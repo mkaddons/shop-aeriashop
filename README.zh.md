@@ -6,8 +6,8 @@
 
 ## 目录说明
 
-- `src/content/goods/` — 商品 Markdown 与图片
-- `src/content/docs/` — 文档 Markdown（`index.md` 对应 `/docs/` 首页）
+- `content/goods/` — 商品 Markdown 与图片（开发/构建时同步到 `public/goods/`）
+- `content/docs/` — 文档 Markdown（`index.md` 对应 `/docs/` 首页）
 - `public/` — 静态资源与 `shop.json`、`licenses.json`
 
 ## 本地开发

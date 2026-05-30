@@ -3,8 +3,8 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
-const srcDir = path.join(root, "src", "content", "goods");
-const destDir = path.join(root, "public", "content", "goods");
+const srcDir = path.join(root, "content", "goods");
+const destDir = path.join(root, "public", "goods");
 
 function copyDir(src, dest) {
   if (!fs.existsSync(src)) return;
@@ -20,5 +20,5 @@ function copyDir(src, dest) {
 if (fs.existsSync(srcDir)) {
   fs.rmSync(destDir, { recursive: true, force: true });
   copyDir(srcDir, destDir);
-  console.log("[sync-content] copied goods assets to public/content/goods");
+  console.log("[sync-goods-assets] copied to public/goods");
 }
