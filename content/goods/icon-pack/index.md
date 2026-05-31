@@ -1,18 +1,19 @@
 ---
 name: Indie Icon Pack
 desc: 120+ SVG icons for social, product, and marketing pages.
-preview: cover.svg
+preview: gokit.png
 tools: SVG, Figma
-images: cover.svg
+images: gokit.png
 featured: false
 collection: assets
+demo: https://gokit.cc
 license:
   single license:
     price: 0
-    payurl: https://example.com/pay/icon-pack-single
+    payurl: https://ko-fi.com/loongdusk
   team licenses:
     price: $79
-    payurl: https://example.com/pay/icon-pack-team
+    payurl: https://ko-fi.com/loongdusk
 ---
 
 ## Overview

@@ -1,19 +1,19 @@
 ---
 name: SaaS Launch Kit
 desc: Next.js landing template with pricing, testimonials, and checkout-ready sections.
-preview: cover.svg
+preview: saas.png
 tools: Next.js, Tailwind CSS, TypeScript
-images: cover.svg, screen-1.svg, screen-2.svg
+images: saas.png, saas2.png
 featured: true
 collection: templates
-demo: https://example.com/demo/launch-kit
+demo: https://niceaddons.com/
 license:
   single license:
     price: $49
-    payurl: https://example.com/pay/launch-kit-single
+    payurl: https://ko-fi.com/loongdusk
   team licenses:
     price: $199
-    payurl: https://example.com/pay/launch-kit-team
+    payurl: https://ko-fi.com/loongdusk
 ---
 
 ## What's inside

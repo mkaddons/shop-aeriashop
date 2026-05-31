@@ -1,17 +1,18 @@
 ---
 name: Indie Icon Pack2
 desc: 120+ SVG icons for social, product, and marketing pages.
-preview: cover.svg
+preview: joytoy.png
 tools: SVG, Figma
-images: cover.svg
-featured: false
+images: joytoy.png
+featured: true
 collection: assets
+demo: https://joytoy.cc
 license:
   free license:
-    payurl: https://example.com/pay/icon-pack-single
+    payurl: https://ko-fi.com/loongdusk
   team licenses:
     price: $79
-    payurl: https://example.com/pay/icon-pack-team
+    payurl: https://ko-fi.com/loongdusk
 ---
 
 ## Overview
